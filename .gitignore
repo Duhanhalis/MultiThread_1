@@ -1,0 +1,154 @@
+# 🚫 .NET ve C# Projesi için Git Ignore Dosyası
+
+## 📁 Build Sonuçları
+bin/
+obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## 🔧 Visual Studio Dosyaları
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+## 📦 NuGet Paketleri
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+## 🧪 Test Sonuçları
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+## 💾 Geçici Dosyalar
+*.tmp
+*.temp
+*_i.c
+*_p.c
+*.i
+*.obj
+*.ilk
+*.meta
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+## 🗂️ Backup ve Publish Klasörleri
+aspnet-*.sln
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceFabricBackup/
+*.rptproj.bak
+
+## 🔧 Rider IDE
+.idea/
+*.sln.iml
+
+## 💻 Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## 🌍 Sistem Dosyaları
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+## 🔐 Gizli ve Konfigürasyon Dosyaları
+appsettings.local.json
+appsettings.Production.json
+*.key
+*.secrets
+launchSettings.json
+
+## 📊 Profiling ve Coverage
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## 🚀 Docker
+.dockerignore
+Dockerfile
+docker-compose*.yml
+
+## 📱 Xamarin
+*.jm.config
+*.bak.config
+
+## 🎯 JetBrains Rider
+.idea/
+*.sln.iml
+
+## ⚙️ Entity Framework
+*.edmx.diagram
+*.edmx.sql
+
+## 🔧 MSBuild
+*.binlog
+
+## 📈 Code Coverage
+coverage*.xml
+coverage*.json
+coverage.info
+*.lcov
+
+## 🗃️ Database
+*.mdf
+*.ldf
+*.ndf
+
+## 📋 Log Dosyaları
+logs/
+*.log
