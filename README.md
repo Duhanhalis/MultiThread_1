@@ -68,6 +68,38 @@ Kompleks thread yönetimi ve ileri seviye senkronizasyon
 | `BarrierThread.cs` | 🚧 Barrier ile thread senkronizasyonu |
 | `WaitHandlers.cs` | ⏳ WaitHandle sınıfları ve bekleme mekanizmaları |
 
+### 📦 **ThreadSafeCollections** - Thread Güvenli Koleksiyonlar
+Paralel programlama için optimize edilmiş thread-safe veri yapıları
+
+| 📄 Dosya | 🎯 Açıklama |
+|----------|-------------|
+| `ThreadConcurrentQueue.cs` | 📋 FIFO (First In First Out) thread-safe kuyruk |
+| `ThreadConcurrentStack.cs` | 📚 LIFO (Last In First Out) thread-safe yığın |
+| `ThreadConcurrentBag.cs` | 🎒 Sırasız thread-safe koleksiyon |
+| `ThreadConcurrentDictionary.cs` | 📖 Thread-safe anahtar-değer koleksiyonu |
+| `ThreadBlockingCollection.cs` | 🚦 Üretici-tüketici deseni için bloke edici koleksiyon |
+
+### ⚡ **ParallelProgramming** - Paralel Programlama
+.NET'in paralel programlama araçları ve PLINQ
+
+| 📄 Dosya | 🎯 Açıklama |
+|----------|-------------|
+| `Program.cs` | 🔄 Parallel.For, Parallel.ForEach, Parallel.Invoke, PLINQ örnekleri |
+
+### 🎯 **TaskClass** - Task Programlama Modeli
+Modern async/await programlama ve Task sınıfı kullanımı
+
+| 📄 Dosya | 🎯 Açıklama |
+|----------|-------------|
+| `Program.cs` | ⚡ Task.Run, Task.Wait, Task.ContinueWith, Task.WhenAll/WhenAny örnekleri |
+
+### 🏭 **TaskFactory** - Task Fabrikası
+TaskFactory ile gelişmiş task yönetimi
+
+| 📄 Dosya | 🎯 Açıklama |
+|----------|-------------|
+| `Program.cs` | 🏭 TaskFactory.ContinueWhenAll/ContinueWhenAny örnekleri |
+
 ## 📖 Öğrenme Hedefleri
 
 Bu projede aşağıdaki konuları öğreneceksiniz:
@@ -96,18 +128,40 @@ Bu projede aşağıdaki konuları öğreneceksiniz:
 - ✅ Memory model ve optimizasyonlar
 - ✅ Volatile ve memory barriers
 
+### 📦 Thread-Safe Koleksiyonlar
+- ✅ ConcurrentQueue ile FIFO işlemler
+- ✅ ConcurrentStack ile LIFO işlemler
+- ✅ ConcurrentBag ile sırasız koleksiyonlar
+- ✅ ConcurrentDictionary ile thread-safe dictionary
+- ✅ BlockingCollection ile üretici-tüketici deseni
+
+### ⚡ Paralel Programlama
+- ✅ Parallel.For ile döngü paralelleştirme
+- ✅ Parallel.ForEach ile koleksiyon paralelleştirme
+- ✅ Parallel.Invoke ile metod paralelleştirme
+- ✅ PLINQ ile LINQ sorgularını paralelleştirme
+
+### 🎯 Task Programlama
+- ✅ Task.Run ile asenkron işlemler
+- ✅ Task.Wait/WhenAll/WhenAny ile senkronizasyon
+- ✅ Task.ContinueWith ile zincirleme işlemler
+- ✅ CancellationToken ile iptal işlemleri
+
 ## 📝 Notlar
 
 - 🎯 Her örnek bağımsız olarak çalıştırılabilir
 - 🔍 Kod örnekleri açıklamalı ve anlaşılır
 - 🧪 Test edilmiş ve doğrulanmış örnekler
 - 📊 Performans karşılaştırmaları mevcut
-
+- 🚀 Modern C# async/await pattern'leri
+- ⚡ Paralel programlama optimizasyonları
 
 ### 🌟 **Bu proje ile modern C# thread programlamayı öğrenin!** 🌟
 
 [![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-12.0-green.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![Threading](https://img.shields.io/badge/Threading-Advanced-orange.svg)](https://docs.microsoft.com/en-us/dotnet/standard/threading/)
+[![Parallel](https://img.shields.io/badge/Parallel-Programming-blue.svg)](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
+[![Task](https://img.shields.io/badge/Task-Programming-yellow.svg)](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
 
 </div> 
