@@ -1,11 +1,4 @@
 # 🚀 Asenkron ve Multithread Programlama
-
-## 📚 Kurs Hakkında
-
-> **Gençay Yıldız : Asenkron ve Multithread Programlama Eğitimi - 1. Etap** kursunun eğitim özeti ve uygulama örnekleridir.
-
-Bu proje, C# dilinde asenkron programlama ve çoklu thread yönetimi konularında kapsamlı örnekler içermektedir. Modern yazılım geliştirmede kritik öneme sahip bu konuları teorik bilgi ile pratik uygulamaları birleştirerek öğrenebilirsiniz.
-
 ---
 
 ## 📁 Proje Yapısı
@@ -75,30 +68,6 @@ Kompleks thread yönetimi ve ileri seviye senkronizasyon
 | `BarrierThread.cs` | 🚧 Barrier ile thread senkronizasyonu |
 | `WaitHandlers.cs` | ⏳ WaitHandle sınıfları ve bekleme mekanizmaları |
 
----
-
-## 🛠️ Kurulum ve Çalıştırma
-
-### 📋 Gereksinimler
-- .NET 9.0 SDK
-- Visual Studio 2022 veya VS Code
-- C# 12.0
-
-### 🚀 Proje Çalıştırma
-
-```bash
-# Proje dizinine gidin
-cd AsynchronousAndMultithread
-
-# Projeyi derleyin
-dotnet build
-
-# Projeyi çalıştırın
-dotnet run
-```
-
----
-
 ## 📖 Öğrenme Hedefleri
 
 Bu projede aşağıdaki konuları öğreneceksiniz:
@@ -127,30 +96,6 @@ Bu projede aşağıdaki konuları öğreneceksiniz:
 - ✅ Memory model ve optimizasyonlar
 - ✅ Volatile ve memory barriers
 
----
-
-## 🎓 Kurs İçeriği
-
-Bu proje **Gençay Yıldız**'ın **Asenkron ve Multithread Programlama Eğitimi**nin 1. etap materyallerini içermektedir.
-
-### 📚 Eğitim Modülleri
-
-1. **🧵 Thread Temelleri** - Thread kavramı ve temel kullanım
-2. **🔒 Thread Safety** - Güvenli thread programlama
-3. **📡 Senkronizasyon** - Thread'ler arası iletişim
-4. **⚛️ Atomik İşlemler** - Lock-free programlama
-5. **🎖️ İleri Seviye** - Kompleks senkronizasyon senaryoları
-
----
-
-## 🔗 Faydalı Bağlantılar
-
-- 📖 [Microsoft Threading Documentation](https://docs.microsoft.com/en-us/dotnet/standard/threading/)
-- 🎥 [Gençay Yıldız YouTube Kanalı](https://www.youtube.com/playlist?list=PLQVXoXFVVtp1wcNcTWS1GlC0r4ItcQvAj)
-- 💡 [.NET Threading Best Practices](https://docs.microsoft.com/en-us/dotnet/standard/threading/managed-threading-best-practices)
-
----
-
 ## 📝 Notlar
 
 - 🎯 Her örnek bağımsız olarak çalıştırılabilir
@@ -158,9 +103,6 @@ Bu proje **Gençay Yıldız**'ın **Asenkron ve Multithread Programlama Eğitimi
 - 🧪 Test edilmiş ve doğrulanmış örnekler
 - 📊 Performans karşılaştırmaları mevcut
 
----
-
-<div align="center">
 
 ### 🌟 **Bu proje ile modern C# thread programlamayı öğrenin!** 🌟
 

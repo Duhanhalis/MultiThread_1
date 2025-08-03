@@ -7,6 +7,7 @@ using AsenkronveMultithread.BasicThreading;
 using AsenkronveMultithread.ThreadSafety.Locking;
 using AsenkronveMultithread.ThreadSafety.Signaling;
 using AsenkronveMultithread.ThreadSafety.AtomicAndMemory;
+using AsenkronveMultithread.ThreadSafeCollections;
 
 namespace AsenkronveMultithread
 {
@@ -104,8 +105,15 @@ namespace AsenkronveMultithread
             // ThreadPoolCourse threadPoolCourse = new ThreadPoolCourse();
             // //threadPoolCourse.ThreadPoolMethod();
 
-            BarrierThread barrierThread = new BarrierThread();
-            barrierThread.BarrierThreadMethod();
+            // BarrierThread barrierThread = new BarrierThread();
+            // barrierThread.BarrierThreadMethod();
+
+            // ThreadConcurrentBag threadConcurrentBag = new ThreadConcurrentBag();
+            // threadConcurrentBag.ThreadConcurrentBagMethod();
+            // ThreadConcurrentDictionary threadConcurrentDictionary = new ThreadConcurrentDictionary();
+            // threadConcurrentDictionary.ThreadConcurrentDictionaryMethod();
+            ThreadConcurrentQueue threadConcurrentQueue = new ThreadConcurrentQueue();
+            threadConcurrentQueue.ThreadConcurrentQueueMethod();
 
             Console.WriteLine("\nTüm örnekler tamamlandı!");
             Console.Read();
